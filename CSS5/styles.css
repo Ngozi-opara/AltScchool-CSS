@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo {
+    height: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.account-btn {
+    padding: 5px 15px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+.nav-line {
+    border: 0.5px solid #ccc;
+    margin: 0;
+}
+
+/* Checkout Container */
+.checkout-container {
+    display: flex;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout Form */
+.checkout-form {
+    flex: 2;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+/* Aligning Step Image and Text */
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Align First Name and Last Name on the Same Line */
+.name-fields {
+    display: flex;
+    gap: 15px;
+}
+
+.name-fields .form-group {
+    flex: 1;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Buy Button */
+.buy-btn {
+    width: 100%;
+    padding: 12px;
+    background: #008060;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Help Section */
+.help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.help img {
+    height: 16px;
+}
+
+/* Sidebar - Freelancer Section */
+.sidebar {
+    flex: 1;
+    background: #0073e6;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Make Sidebar Match Checkout Height */
+.sidebar,
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.dollar {
+    font-size: 20px;
+    vertical-align: super;
+}
+
+.amount {
+    font-size: 40px;
+}
+
+.year {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.subtext {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.switch-plan {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.testimonial {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.customer img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    background: #f9f9f9;
+}
